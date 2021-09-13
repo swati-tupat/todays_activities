@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.8.5 on win32)" generated="20210913 12:20:02.736" rpa="false" schemaversion="2">
+<suite id="s1" name="Front Office" source="C:\Users\Swati\PycharmProjects\Demo\tests\Front_Office.robot">
+<test id="s1-t1" name="Open Team page">
+<kw name="Begin test" library="CommonWeb" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210913 12:20:02.968" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20210913 12:20:02.966" endtime="20210913 12:20:06.660"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210913 12:20:06.661" endtime="20210913 12:20:06.790"/>
+</kw>
+<status status="PASS" starttime="20210913 12:20:02.965" endtime="20210913 12:20:06.790"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Executing test 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 12:20:06.791" level="INFO">Executing test 1</msg>
+<status status="PASS" starttime="20210913 12:20:06.791" endtime="20210913 12:20:06.792"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210913 12:20:11.804" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210913 12:20:06.792" endtime="20210913 12:20:11.804"/>
+</kw>
+<kw name="End test" library="CommonWeb" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210913 12:20:11.807" endtime="20210913 12:20:14.344"/>
+</kw>
+<status status="PASS" starttime="20210913 12:20:11.806" endtime="20210913 12:20:14.345"/>
+</kw>
+<doc>Test 1</doc>
+<status status="PASS" starttime="20210913 12:20:02.963" endtime="20210913 12:20:14.345"/>
+</test>
+<test id="s1-t2" name="Checking Requirements">
+<kw name="Begin test" library="CommonWeb" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210913 12:20:14.349" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20210913 12:20:14.348" endtime="20210913 12:20:17.027"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210913 12:20:17.030" endtime="20210913 12:20:17.163"/>
+</kw>
+<status status="PASS" starttime="20210913 12:20:14.348" endtime="20210913 12:20:17.164"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Executing test 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 12:20:17.166" level="INFO">Executing test 2</msg>
+<status status="PASS" starttime="20210913 12:20:17.165" endtime="20210913 12:20:17.166"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210913 12:20:22.183" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210913 12:20:17.167" endtime="20210913 12:20:22.183"/>
+</kw>
+<kw name="End test" library="CommonWeb" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210913 12:20:22.186" endtime="20210913 12:20:24.433"/>
+</kw>
+<status status="PASS" starttime="20210913 12:20:22.184" endtime="20210913 12:20:24.434"/>
+</kw>
+<doc>Test 2</doc>
+<status status="PASS" starttime="20210913 12:20:14.347" endtime="20210913 12:20:24.434"/>
+</test>
+<doc>Talking about this suite.</doc>
+<status status="PASS" starttime="20210913 12:20:02.740" endtime="20210913 12:20:24.437"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Front Office">Front Office</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
