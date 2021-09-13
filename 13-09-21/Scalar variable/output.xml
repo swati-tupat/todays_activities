@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.8.5 on win32)" generated="20210913 11:28:34.069" rpa="false" schemaversion="2">
+<suite id="s1" name="Scalar" source="C:\Users\Swati\PycharmProjects\sample\variable\scalar\scalar.robot">
+<test id="s1-t1" name="variable demonstration">
+<kw name="Log" library="BuiltIn">
+<arg>${url}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 11:28:34.094" level="INFO">browser</msg>
+<status status="PASS" starttime="20210913 11:28:34.093" endtime="20210913 11:28:34.094"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>scalar variable is ${url}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 11:28:34.094" level="INFO">scalar variable is browser</msg>
+<status status="PASS" starttime="20210913 11:28:34.094" endtime="20210913 11:28:34.094"/>
+</kw>
+<status status="PASS" starttime="20210913 11:28:34.093" endtime="20210913 11:28:34.094"/>
+</test>
+<test id="s1-t2" name="demo2">
+<kw name="Log" library="BuiltIn">
+<arg>my name is ${name}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 11:28:34.096" level="INFO">my name is swati</msg>
+<status status="PASS" starttime="20210913 11:28:34.095" endtime="20210913 11:28:34.096"/>
+</kw>
+<status status="PASS" starttime="20210913 11:28:34.095" endtime="20210913 11:28:34.096"/>
+</test>
+<test id="s1-t3" name="demo3">
+<kw name="Log" library="BuiltIn">
+<arg>i am ${name}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 11:28:34.098" level="INFO">i am swati</msg>
+<status status="PASS" starttime="20210913 11:28:34.098" endtime="20210913 11:28:34.098"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>and i am a ${var} intern.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 11:28:34.098" level="INFO">and i am a ltts intern.</msg>
+<status status="PASS" starttime="20210913 11:28:34.098" endtime="20210913 11:28:34.098"/>
+</kw>
+<status status="PASS" starttime="20210913 11:28:34.097" endtime="20210913 11:28:34.099"/>
+</test>
+<status status="PASS" starttime="20210913 11:28:34.071" endtime="20210913 11:28:34.099"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Scalar">Scalar</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
