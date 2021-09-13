@@ -11,7 +11,7 @@ Test Teardown  Common.End Web Test
 *** Variables ***
 ${BROWSER} =  chrome
 ${START_URL} =  https://www.amazon.com
-${SEARCH_TERM} =  Ferrari 458
+${SEARCH_TERM} =  Mobile
 
 *** Test Cases ***
 Logged out user can search for products
