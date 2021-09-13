@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.8.5 on win32)" generated="20210913 10:55:10.922" rpa="false" schemaversion="2">
+<suite id="s1" name="List" source="C:\Users\Swati\PycharmProjects\sample\variable\list\list.robot">
+<test id="s1-t1" name="login credentials">
+<kw name="Log" library="BuiltIn">
+<arg>@{cred} [0]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 10:55:10.951" level="INFO">['swati', '1234', 'mumabi'] [0]</msg>
+<status status="PASS" starttime="20210913 10:55:10.951" endtime="20210913 10:55:10.951"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>@{cred} [1]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 10:55:10.952" level="INFO">['swati', '1234', 'mumabi'] [1]</msg>
+<status status="PASS" starttime="20210913 10:55:10.952" endtime="20210913 10:55:10.952"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>@{cred} [2]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 10:55:10.953" level="INFO">['swati', '1234', 'mumabi'] [2]</msg>
+<status status="PASS" starttime="20210913 10:55:10.952" endtime="20210913 10:55:10.953"/>
+</kw>
+<status status="PASS" starttime="20210913 10:55:10.950" endtime="20210913 10:55:10.954"/>
+</test>
+<test id="s1-t2" name="Address details">
+<kw name="Log" library="BuiltIn">
+<arg>I am @{address} [0]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 10:55:10.955" level="INFO">I am ['shahad', 'Thane', 'Maharashtra'] [0]</msg>
+<status status="PASS" starttime="20210913 10:55:10.955" endtime="20210913 10:55:10.955"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>District is @{address} [1] and state is @{address} [2]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210913 10:55:10.956" level="INFO">District is ['shahad', 'Thane', 'Maharashtra'] [1] and state is ['shahad', 'Thane', 'Maharashtra'] [2]</msg>
+<status status="PASS" starttime="20210913 10:55:10.956" endtime="20210913 10:55:10.956"/>
+</kw>
+<status status="PASS" starttime="20210913 10:55:10.955" endtime="20210913 10:55:10.956"/>
+</test>
+<status status="PASS" starttime="20210913 10:55:10.925" endtime="20210913 10:55:10.957"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="List">List</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
